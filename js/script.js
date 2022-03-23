@@ -10,4 +10,8 @@ console.log(userColor);
 
 document.getElementById("password").innerHTML += "" + userName + userSurname + userColor + 21;
 
-
+/* 
+A[ciao] -->|ok| B(Inserisci nome)
+B -->|ok| C(Inserisci cognome)
+C -->|ok| D(Inserisci colore preferito)
+D -->|Add 21| E[Pasword] */
