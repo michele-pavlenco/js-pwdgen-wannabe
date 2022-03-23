@@ -8,7 +8,7 @@ console.log(userSurname);
 let userColor = (prompt ("Qualè il tuo colore preferito?"));
 console.log(userColor);
 
-document.getElementById("password").innerHTML += "" + userName + userSurname + userColor + 21;
+document.getElementById("password").innerHTML += userName + userSurname + userColor + 21;
 
 /* 
 A[ciao] -->|ok| B(Inserisci nome)
